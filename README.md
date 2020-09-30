@@ -1,7 +1,7 @@
 # Edutracker
  Track your way to success with edutracker
 ## Technologies Used -
- ###### Back-end : Node  JS, Express JS
+ ###### Back-end : Node  JS, Express JS, EJS tempelate engines
  ###### Database : Mongo DB (Mongoose)
  ###### Authentication : Passport JS
  ###### Front-end : HTML, EJS, CSS, JS, Semantic UI, Bootstrap
@@ -20,7 +20,7 @@
   ```bash
   git clone https://github.com/SparshJain2000/edutracker.git
   ```
- #### Install node libraries
+ #### Install node modules
   ```bash
   npm install
   ```
@@ -28,7 +28,7 @@
  ###### Create a file .env
   ```txt
   MONGO_URI = 'Your mongo url'
-  SECRET = 'secret for Passport'
+  SECRET = 'secret for Passport JS'
   ```
  #### Start the server (run app.js file)
   ```bash
